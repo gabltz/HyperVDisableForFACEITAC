@@ -5,7 +5,7 @@
 
 ### How does it works ?
 
-[![Screenshot #1]()
+[![Screenshot #1](https://img.gvbnn.eu/GY32PGsX4i.gif)
 
 You just need to start this tool as admin, then when the tool has finish, you just need to restart your computer and it's good !
 
