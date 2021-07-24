@@ -57,7 +57,7 @@ setlocal & pushd .
 cd /d %~dp0
 
 bcdedit /set hypervisorlaunchtype off
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Disabled" /t REG_DWORD /d 0 /f
 
 cls
 
@@ -94,7 +94,7 @@ setlocal & pushd .
 cd /d %~dp0
 
 bcdedit /set hypervisorlaunchtype on 
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Disabled" /t REG_DWORD /d 0 /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f
 
 cls
 
